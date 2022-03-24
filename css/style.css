@@ -11,6 +11,9 @@
     width: 80%;
     margin: 0 auto;
 }
+.row-products {
+    margin-bottom: 40px;
+}
 .product {
     width: 33%;
     display: inline-block;
@@ -51,20 +54,24 @@
     background-color: green;
     left: 50px;
 }
+.sostenibilità.alone {
+    left: 0;
+}
 .cost {
     color: red;
+    font-size: 14px;
 }
 .cost .original-price {
     color: black;
     text-decoration: line-through;
 }
 /* scambio immagine articolo */
-#second-image {
+.second-image {
     display: none;
 }
-.section-photo-article:hover #second-image {
+.section-photo-article:hover .second-image {
     display: inline-block;
 }
-.section-photo-article:hover #first-image {
+.section-photo-article:hover .first-image {
     display: none;
 }
