@@ -7,9 +7,13 @@
 }
 
 /* stili header */
+header {
+    display: inline-block;
+    width: 65%;
+}
 #logo {
     margin: 10px;
-    line-height: 50px;
+    line-height: 70px;
     vertical-align: middle;
 }
 #logo-text {
@@ -18,7 +22,20 @@
     vertical-align: middle;
 }
 
-/*  */
+/* stili nav-bar */
+nav{
+    display: inline-block;
+    line-height: 70px;
+    vertical-align: middle;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 7px 15px;
+    font-size: 22px;
+    vertical-align: middle;
+}
 
 /* stili corpo principale */
 #main-list-product {
