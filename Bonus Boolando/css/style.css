@@ -1,0 +1,91 @@
+/* stili base progetto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* stili header */
+#logo {
+    margin: 10px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+#logo-text {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*  */
+
+/* stili corpo principale */
+#main-list-product {
+    width: 80%;
+    margin: 0 auto;
+}
+.row-products {
+    margin-bottom: 40px;
+}
+.product {
+    width: 33%;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 0 5px 0 5px;
+}
+.section-photo-article {
+    position: relative;
+}
+.product img {
+    width: 100%;
+}
+.heart {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 35px;
+}
+.label-discount, .sostenibilità {
+    position: absolute;
+    color:#fff;
+    font-weight: bold;
+    padding: 4px;
+    bottom: 25px;
+    font-size: 14px;
+}
+.label-discount {
+    background-color: red;
+    left: 0;
+}
+.sostenibilità {
+    background-color: green;
+    left: 50px;
+}
+.sostenibilità.alone {
+    left: 0;
+}
+.cost {
+    color: red;
+    font-size: 14px;
+}
+.cost .original-price {
+    color: black;
+    text-decoration: line-through;
+}
+/* scambio immagine articolo */
+.second-image {
+    display: none;
+}
+.section-photo-article:hover .second-image {
+    display: inline-block;
+}
+.section-photo-article:hover .first-image {
+    display: none;
+}
