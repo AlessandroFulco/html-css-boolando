@@ -47,7 +47,7 @@
     font-weight: bold;
     color:#fff;
 }
-.label-discount, .sostenibilità {
+.label-discount, .sostenibilita {
     display: inline-block;
     font-weight: bold;
     padding: 4px;
@@ -57,7 +57,7 @@
     background-color: red;
 
 }
-.sostenibilità {
+.sostenibilita {
     background-color: green;
 }
 .cost {
