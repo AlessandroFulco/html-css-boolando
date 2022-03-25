@@ -15,7 +15,7 @@
 /* stili header */
 header {
     display: inline-block;
-    width: 70%;
+    width: 60%;
 }
 #logo {
     margin: 10px;
@@ -109,24 +109,26 @@ main {
     vertical-align: middle;
     font-size: 35px;
 }
-.label-discount, .sostenibilità {
+.label {
     position: absolute;
-    color:#fff;
-    font-weight: bold;
-    padding: 4px;
+    left: 0;
     bottom: 25px;
     font-size: 14px;
+    font-weight: bold;
+    color:#fff;
 }
+.label-discount, .sostenibilità {
+    display: inline-block;
+    font-weight: bold;
+    padding: 4px;
+    font-size: 14px;
+}
+
 .label-discount {
     background-color: red;
-    left: 0;
 }
 .sostenibilità {
     background-color: green;
-    left: 50px;
-}
-.sostenibilità.alone {
-    left: 0;
 }
 .cost {
     color: red;

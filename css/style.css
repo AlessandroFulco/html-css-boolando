@@ -55,14 +55,10 @@
 }
 .label-discount {
     background-color: red;
-    left: 0;
+
 }
 .sostenibilità {
     background-color: green;
-    left: 50px;
-}
-.sostenibilità.alone {
-    left: 0;
 }
 .cost {
     color: red;
