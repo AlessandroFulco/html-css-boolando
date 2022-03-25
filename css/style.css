@@ -38,12 +38,19 @@
     vertical-align: middle;
     font-size: 35px;
 }
-.label-discount, .sostenibilità {
+
+.label {
     position: absolute;
+    left: 0;
+    bottom: 25px;
+    font-size: 14px;
+    font-weight: bold;
     color:#fff;
+}
+.label-discount, .sostenibilità {
+    display: inline-block;
     font-weight: bold;
     padding: 4px;
-    bottom: 25px;
     font-size: 14px;
 }
 .label-discount {
